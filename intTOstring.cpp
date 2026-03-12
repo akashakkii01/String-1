@@ -3,9 +3,9 @@
 #include<algorithm>
 using namespace std;
 int main(){
-   string s = "abcdef";
-   // s.substr(idx, len)
-   cout<<s.substr(1,3);
+   int x = 12345;
+   string s = to_string(x);
+   cout<<s<<endl;
 
     return 0;
 }
